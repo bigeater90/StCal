@@ -1,0 +1,23 @@
+package com.stcal;
+
+import javax.swing.*;
+
+public class F
+{
+    protected JFrame fen = new JFrame();
+
+
+    public void show(){
+        System.out.println(this.getClass().getName() + " : show");
+        fen.setVisible(true);
+    }
+
+    public void close(){
+        System.out.println("FHome: close");
+        fen.setVisible(false);
+    }
+
+
+
+
+}
